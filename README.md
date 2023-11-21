@@ -102,6 +102,7 @@
   - `docker images`
   - `docker network ls`
   - `docker volume ls`
+  - `docker rm -f`
 - **PROCESSES** in Docker are automatically terminated when a Container has finished running.
   - once a file has downloaded the **process** has finished
   - once a file has been moved to a different location, the **process** has finished. Exited.
@@ -111,4 +112,5 @@
 - Dockerfile
 - .dockerignore
 - Build
-  - docker build -t nodeapp (name)
+  - docker build -t nodeapp . (name)(here)
+- build the image whilst in the root directory of the application
