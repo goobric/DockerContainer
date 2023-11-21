@@ -105,3 +105,10 @@
 - **PROCESSES** in Docker are automatically terminated when a Container has finished running.
   - once a file has downloaded the **process** has finished
   - once a file has been moved to a different location, the **process** has finished. Exited.
+
+### Docker Components
+
+- Dockerfile
+- .dockerignore
+- Build
+  - docker build -t nodeapp (name)
